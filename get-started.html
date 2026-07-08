@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Get Started — Allies, LLC</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== HEADER / NAV (repeated on every page) ===== -->
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Allies, LLC logo" class="logo-img">
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="get-started.html" class="active">Get Started</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <!-- ===== INTRO + REFERRAL BUTTON ===== -->
+  <section class="tint-sand" style="padding-bottom:0;">
+    <div class="wrap intro-text center">
+      <p class="eyebrow">Get Started</p>
+      <h1 style="font-size:clamp(2.2rem,5vw,3.2rem);">Get Started</h1>
+    </div>
+    <div class="wrap intro-text">
+      <!-- EDIT ME -->
+      <p>We are happy that you are considering Allies, LLC for your residential host home needs. Our goal is to make the transition as smooth, transparent, and welcoming as possible.</p>
+      <p>To begin the placement process, please download and complete our initial application form and email the completed form to jackdavoll@alliesllc.org.</p>
+    </div>
+    <div class="wrap referral-box">
+      <!-- EDIT ME: point this href at your real PDF file once you have one, e.g. files/referral-form.pdf -->
+      <a href="files/HHP_Application__2026__-_Google_Docs.pdf" class="btn btn-solid referral-btn" download>Download Application Form (PDF)</a>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES — 4 blocks + 3 photos (from your planning notes) ===== -->
+  <section class="tint-sage">
+    <div class="wrap">
+      <p class="eyebrow center">Our Services</p>
+      <h2 class="section-title center">What We Offer</h2>
+      <!-- EDIT ME: 4 service blocks — rename/replace as needed -->
+      <div class="services-grid" style="margin-top:40px;">
+        <div class="service-card"><h3>24/7 Supportive Home Setting</h3><p>Experience round-the clock supportive living with personalized care provided in a warm, welcoming, family-style home.</p></div>
+        <div class="service-card"><h3>Daily Living Skills Development</h3><p>We help cultivate essential life skills, including personal care, cleaning skills, and independent budgeting.</p></div>
+        <div class="service-card"><h3>Medical Care and Wellness Programs</h3><p>Comprehensive health oversight, including dedicated medication administration, ongoing health monitoring, and personalized wellness plans.</p></div>
+        <div class="service-card"><h3>Active Community Integration</h3><p>Access a full calendar of social activities, recreational opportunities, and local community events to promote connection.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== THE PROCESS / STEPS ===== -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title center">The Process</h2>
+      <div class="steps">
+        <div class="step">
+          <span class="step-num">01</span>
+          <!-- EDIT ME -->
+          <p>Complete the referral form and drop it off at our office or email our team. We will review your application and reach out about availability.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">02</span>
+          <!-- EDIT ME: fill in step 2 -->
+          <p>We will invite you and the applicant to meet our team, ask questions, and tour potential host homes firsthand.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">03</span>
+          <!-- EDIT ME: fill in step 3 -->
+          <p>Our team will compile the necessary documentation and design a personalized support plan to ensure a smooth, comfortable transition into the new home.</p>
+        </div>
+      </div>
+      <p class="center" style="margin-top:50px;font-size:1.1rem;">Please <a href="contact.html" style="color:var(--gold);font-weight:600;">contact us</a> if you have questions!</p>
+    </div>
+  </section>
+
+  <!-- ===== OPTIONAL CLOSING PHOTO ===== -->
+  <!-- You said "maybe" a photo at the very bottom — here's one, sized modestly.
+       Delete this whole <section> block if you'd rather not have it. -->
+  <section class="tint-caramel">
+    <div class="wrap single-photo">
+      <!-- EDIT ME: swap images/get-started-photo.jpg for a different photo anytime -->
+      <img src="images/get-started-photo.jpg" alt="Allies, LLC">
+    </div>
+  </section>
+
+  <!-- ===== FOOTER (repeated on every page) ===== -->
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <h3>ALLIES, LLC</h3>
+        <p>3000 S Jamaica Ct STE 200</p>
+        <p>Aurora, CO 80014</p>
+      </div>
+      <div>
+        <p>303.750.5007</p>
+        <p>jackdavoll@alliesllc.org</p>
+      </div>
+    </div>
+    <p class="footer-bottom">© <span id="year"></span> Allies, LLC. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

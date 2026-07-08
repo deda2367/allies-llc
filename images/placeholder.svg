@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#F1ECE0"/>
+  <path d="M0 420 L160 220 L260 340 L380 160 L520 380 L620 260 L800 440 L800 600 L0 600 Z" fill="#DCD3BC"/>
+  <path d="M0 460 L200 300 L340 420 L500 260 L650 420 L800 320 L800 600 L0 600 Z" fill="#C7BCA0"/>
+  <text x="400" y="540" font-family="monospace" font-size="20" fill="#8A8170" text-anchor="middle" letter-spacing="2">YOUR PHOTO HERE</text>
+</svg>

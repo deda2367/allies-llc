@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#EFF3E7"/>
+  <g fill="none" stroke="#33403E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M400 200 C 360 150, 280 160, 280 230 C 280 300 400 370 400 370 C 400 370 520 300 520 230 C 520 160 440 150 400 200 Z"/>
+    <path d="M250 420 Q400 470 550 420" />
+  </g>
+  <text x="400" y="540" font-family="monospace" font-size="20" fill="#7A8568" text-anchor="middle" letter-spacing="2">YOUR PHOTO HERE</text>
+</svg>

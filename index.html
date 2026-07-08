@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--
+  ============================================================
+  ALLIES, LLC — HOME PAGE (index.html)
+  ============================================================
+  This site is 4 separate pages that share styles.css and
+  script.js. The header and footer blocks below are duplicated
+  on every page — if you change them, change all 4 files.
+
+  Look for "EDIT ME" comments for the spots you should fill in
+  with real text, links, and photos.
+  ============================================================
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Allies, LLC — Residential Host Home Agency</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== HEADER / NAV (repeated on every page) ===== -->
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Allies, LLC logo" class="logo-img">
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="get-started.html">Get Started</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Residential Host Home Agency</p>
+      <!-- EDIT ME -->
+      <h1>ALLIES, LLC</h1>
+      <p class="subtitle">Empowering Lives in Colorado</p>
+      <div class="btn-row" style="justify-content:center;">
+        <a href="get-started.html" class="btn btn-solid">Get Started</a>
+        <a href="contact.html" class="btn btn-outline">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT BLURB + IMAGE ===== -->
+  <section class="tint-sand">
+    <div class="wrap feature-row">
+      <!-- EDIT ME: swap images/team-photo.jpg for a different photo anytime -->
+      <img src="images/team-photo.jpg" alt="The Allies, LLC team">
+      <div>
+        <p class="eyebrow">Who we are</p>
+        <h2 class="section-title">Get to Know Us!</h2>
+        <!-- EDIT ME: your real description, 2-3 sentences -->
+        <p>At Allies, LLC, we provide safe, licensed host home environments across Colorado for adults with intellectual and developmental disabilities, earning the trust of families through our deeply individualized care and carefully vetted caregivers.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== THREE PHOTOS ===== -->
+  <section class="tint-powder">
+    <div class="wrap">
+      <p class="eyebrow center">In the community</p>
+      <div class="photo-row" style="margin-top:24px;">
+        <!-- EDIT ME: swap any of these for different photos anytime -->
+        <img src="images/community-1.jpg" alt="Allies community photo 1">
+        <img src="images/community-2.jpg" alt="Allies community photo 2">
+        <img src="images/community-3.jpg" alt="Allies community photo 3">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER (repeated on every page) ===== -->
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <h3>ALLIES, LLC</h3>
+        <p>3000 S Jamaica Ct STE 200</p>
+        <p>Aurora, CO 80014</p>
+      </div>
+      <div>
+        <p>303.750.5007</p>
+        <p>jackdavoll@alliesllc.org</p>
+      </div>
+    </div>
+    <p class="footer-bottom">© <span id="year"></span> Allies, LLC. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

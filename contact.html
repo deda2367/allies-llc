@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Allies, LLC</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== HEADER / NAV (repeated on every page) ===== -->
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Allies, LLC logo" class="logo-img">
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="get-started.html">Get Started</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <!-- ===== HEADLINE ===== -->
+  <section class="tint-sand" style="padding-bottom:0;">
+    <div class="wrap center" style="max-width:680px;margin:0 auto;">
+      <p class="eyebrow">Contact</p>
+      <h1 style="font-size:clamp(2.2rem,5vw,3.2rem);">Reach Out Today!</h1>
+      <!-- EDIT ME -->
+      <p style="color:var(--muted);font-size:1.1rem;">Reach out by phone, email, or stop by the office to learn about availability.</p>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT CARDS + MAP ===== -->
+  <section class="tint-powder">
+    <div class="wrap contact-grid">
+      <div class="contact-cards">
+        <div class="contact-card">
+          <span class="label">Phone</span>
+          <span class="value">303.750.5007</span>
+        </div>
+        <div class="contact-card">
+          <span class="label">Email</span>
+          <span class="value">jackdavoll@alliesllc.org</span>
+        </div>
+        <div class="contact-card">
+          <span class="label">Address</span>
+          <span class="value">3000 S Jamaica Ct STE 200<br>Aurora, CO 80014</span>
+        </div>
+      </div>
+      <div class="map-wrap">
+        <iframe
+          src="https://www.google.com/maps?q=3000+S+Jamaica+Ct+STE+200,+Aurora,+CO+80014&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen
+          title="Map to Allies, LLC office">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER (repeated on every page) ===== -->
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <h3>ALLIES, LLC</h3>
+        <p>3000 S Jamaica Ct STE 200</p>
+        <p>Aurora, CO 80014</p>
+      </div>
+      <div>
+        <p>303.750.5007</p>
+        <p>jackdavoll@alliesllc.org</p>
+      </div>
+    </div>
+    <p class="footer-bottom">© <span id="year"></span> Allies, LLC. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
